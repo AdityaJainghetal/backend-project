@@ -8,6 +8,7 @@ router.get('/:id', getProductById);
 router.post('/', createProduct);
 router.put('/:id', updateProduct);
 router.delete('/:id', deleteProduct);
+
 router.put('/purchase', purchaseProduct);
 router.get('/category/:id',getCoursesByCategory)
 
